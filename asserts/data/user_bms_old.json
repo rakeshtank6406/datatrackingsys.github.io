@@ -1,0 +1,619 @@
+{
+    "facilityId": "F1",
+    "loginId": "Dev2",
+    "lngCode": "eng",
+    "result": true,
+    "msgTypeId": 1,
+    "msg": "",
+    "menus": [
+        {
+            "rootId": 0,
+            "childId": 10000,
+            "text": "Templates",
+            "seqNo": 1,
+            "icon": "pi pi-fw",
+            "url": "",
+            "siteMap": []
+        },
+        {
+            "rootId": 0,
+            "childId": 20000,
+            "text": "3PL Billing",
+            "seqNo": 1,
+            "icon": "pi pi-fw",
+            "url": "",
+            "siteMap": []
+        },
+        {
+            "rootId": 10000,
+            "childId": 10010,
+            "text": "Standard Page",
+            "seqNo": 1,
+            "icon": "pi pi-fw pi-chevron-right",
+            "url": "/sample1",
+            "siteMap": [
+                "Template",
+                "Sample 1"
+            ]
+        },
+        {
+            "rootId": 20000,
+            "childId": 20100,
+            "text": "Contract",
+            "seqNo": 1,
+            "icon": "pi pi-fw",
+            "url": "",
+            "siteMap": []
+        },
+        {
+            "rootId": 20100,
+            "childId": 20101,
+            "text": "Client",
+            "seqNo": 1,
+            "icon": "pi pi-fw  ",
+            "url": "/client",
+            "siteMap": [
+                "3PL Billing",
+                "Contract",
+                "Client"
+            ]
+        },
+        {
+            "rootId": 20100,
+            "childId": 20102,
+            "text": "Invoice Type",
+            "seqNo": 1,
+            "icon": "pi pi-fw ",
+            "url": "/invoiceType",
+            "siteMap": [
+                "3PL Billing",
+                "Contract",
+                "Invoice Type"
+            ]
+        },
+        {
+            "rootId": 20100,
+            "childId": 20103,
+            "text": "Contarct",
+            "seqNo": 1,
+            "icon": "pi pi-fw  ",
+            "url": "/contract",
+            "siteMap": [
+                "3PL Billing",
+                "Contract",
+                "Contract"
+            ]
+        },
+        {
+            "rootId": 20000,
+            "childId": 20200,
+            "text": "Invoice",
+            "seqNo": 1,
+            "icon": "pi pi-fw",
+            "url": "",
+            "siteMap": []
+        },
+        {
+            "rootId": 20200,
+            "childId": 20201,
+            "text": "Invoice",
+            "seqNo": 1,
+            "icon": "pi pi-fw  ",
+            "url": "/invoice",
+            "siteMap": [
+                "3PL Billing",
+                "Invoice",
+                "Invoice"
+            ]
+        },
+        {
+            "rootId": 20200,
+            "childId": 20202,
+            "text": "Ad-hoc Charge",
+            "seqNo": 1,
+            "icon": "pi pi-fw ",
+            "url": "adhocCharge",
+            "siteMap": [
+                "3PL Billing",
+                "Invoice",
+                "Ad-hoc Charge"
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "childId": 10010,
+            "funcId": 10011,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 10010,
+            "funcId": 10012,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 10010,
+            "funcId": 10013,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 10010,
+            "funcId": 10014,
+            "text": "Enable",
+            "value": "enable",
+            "seqNo": 0,
+            "icon": "pi pi-check-circle",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 10010,
+            "funcId": 10015,
+            "text": "Disable",
+            "value": "disable",
+            "seqNo": 0,
+            "icon": "pi pi-minus-circle",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20101,
+            "funcId": 201011,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20101,
+            "funcId": 201012,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20101,
+            "funcId": 201013,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20102,
+            "funcId": 201021,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20102,
+            "funcId": 201022,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20102,
+            "funcId": 201023,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20103,
+            "funcId": 201031,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20103,
+            "funcId": 201032,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20103,
+            "funcId": 201033,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20201,
+            "funcId": 202011,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20201,
+            "funcId": 202012,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20201,
+            "funcId": 202013,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20201,
+            "funcId": 202014,
+            "text": "Approve",
+            "value": "approve",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20201,
+            "funcId": 202015,
+            "text": "Post",
+            "value": "post",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        },
+        {
+            "childId": 20202,
+            "funcId": 202021,
+            "text": "Add",
+            "value": "add",
+            "seqNo": 0,
+            "icon": "pi pi-plus",
+            "isSRowSel": false,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20202,
+            "funcId": 202022,
+            "text": "Edit",
+            "value": "edit",
+            "seqNo": 0,
+            "icon": "pi pi-pencil",
+            "isSRowSel": true,
+            "isMRowSel": false,
+            "isReqCfmMsg": false
+        },
+        {
+            "childId": 20202,
+            "funcId": 202023,
+            "text": "Delete",
+            "value": "delete",
+            "seqNo": 0,
+            "icon": "pi pi-trash",
+            "isSRowSel": true,
+            "isMRowSel": true,
+            "isReqCfmMsg": true
+        }
+    ],
+    "grids": [
+        {
+            "guiId": 10010,
+            "columns": [
+                {
+                    "field": "DataKey",
+                    "header": "Data Key"
+                },
+                {
+                    "field": "Data1",
+                    "header": "Data 1"
+                },
+                {
+                    "field": "Data2",
+                    "header": "Data 2"
+                },
+                {
+                    "field": "Data3",
+                    "header": "Data 3"
+                },
+                {
+                    "field": "CreateUser",
+                    "header": "Create By"
+                },
+                {
+                    "field": "CreateDate",
+                    "header": "Create On"
+                }
+            ]
+        },
+        {
+            "guiId": 20101,
+            "columns": [
+                {
+                    "field": "OrgName",
+                    "header": "Organization"
+                },
+                {
+                    "field": "ClnCode",
+                    "header": "Client Code"
+                },
+                {
+                    "field": "ClnName",
+                    "header": "Client Name"
+                },
+                {
+                    "field": "Contact",
+                    "header": "Contact"
+                },
+                {
+                    "field": "Addr",
+                    "header": "Address"
+                },
+                {
+                    "field": "Zip",
+                    "header": "Postal Code"
+                },
+                {
+                    "field": "Phone",
+                    "header": "Phone Nbr"
+                },
+                {
+                    "field": "Mobile",
+                    "header": "Mobile Nbr"
+                },
+                {
+                    "field": "Email",
+                    "header": "Email"
+                },
+                {
+                    "field": "Country",
+                    "header": "Country"
+                },
+                {
+                    "field": "CreateUser",
+                    "header": "Create By"
+                },
+                {
+                    "field": "CreateDate",
+                    "header": "Create On"
+                },
+                {
+                    "field": "ModUser",
+                    "header": "Modified By"
+                },
+                {
+                    "field": "ModDate",
+                    "header": "Modified On"
+                }
+            ]
+        },
+        {
+            "guiId": 20102,
+            "columns": [
+                {
+                    "field": "IncType",
+                    "header": "Type"
+                },
+                {
+                    "field": "IncTypeDescp",
+                    "header": "Description"
+                },
+                {
+                    "field": "CreateUser",
+                    "header": "Create By"
+                },
+                {
+                    "field": "CreateDate",
+                    "header": "Create On"
+                },
+                {
+                    "field": "ModUser",
+                    "header": "Modified By"
+                },
+                {
+                    "field": "ModDate",
+                    "header": "Modified On"
+                }
+            ]
+        },
+        {
+            "guiId": 20103,
+            "columns": [
+                {
+                    "field": "CntId",
+                    "header": "Contract Id"
+                },
+                {
+                    "field": "ClnName",
+                    "header": "Client"
+                },
+                {
+                    "field": "StatusDescp",
+                    "header": "Status"
+                },
+                {
+                    "field": "EffectiveDate",
+                    "header": "Effective Date"
+                },
+                {
+                    "field": "ExpiryDate",
+                    "header": "Expiry Date"
+                },
+                {
+                    "field": "ReviewDate",
+                    "header": "Review Date"
+                },
+                {
+                    "field": "CreateUser",
+                    "header": "Create By"
+                },
+                {
+                    "field": "CreateDate",
+                    "header": "Create On"
+                },
+                {
+                    "field": "ModUser",
+                    "header": "Modified By"
+                },
+                {
+                    "field": "ModDate",
+                    "header": "Modified On"
+                }
+            ]
+        },
+        {
+            "guiId": 20201,
+            "columns": [
+                {
+                    "field": "IncId",
+                    "header": "Invoice Id"
+                },
+                {
+                    "field": "CntIncId",
+                    "header": "Invoice Group"
+                },
+                {
+                    "field": "IncNo",
+                    "header": "Invoice Nbr"
+                },
+                {
+                    "field": "Status",
+                    "header": "Status"
+                },
+                {
+                    "field": "ApprovedUser",
+                    "header": "Approve By"
+                },
+                {
+                    "field": "ApprovedDate",
+                    "header": "Approve On"
+                },
+                {
+                    "field": "PostedUser",
+                    "header": "Post By"
+                },
+                {
+                    "field": "PostedDate",
+                    "header": "Post On"
+                },
+                {
+                    "field": "CreateUser",
+                    "header": "Create By"
+                },
+                {
+                    "field": "CreateDate",
+                    "header": "Create On"
+                },
+                {
+                    "field": "ModUser",
+                    "header": "Modified By"
+                },
+                {
+                    "field": "ModDate",
+                    "header": "Modified On"
+                }
+            ]
+        },
+        {
+            "guiId": 20202,
+            "columns": [
+                {
+                    "field": "IncChrId",
+                    "header": "Charge Id"
+                },
+                {
+                    "field": "IncId",
+                    "header": "Invoice Id"
+                },
+                {
+                    "field": "ChrId",
+                    "header": "Charge Code"
+                },
+                {
+                    "field": "ReasonText",
+                    "header": "Reason"
+                },
+                {
+                    "field": "BillAmount",
+                    "header": "Ammount"
+                },
+                {
+                    "field": "BillUser",
+                    "header": "Charge By"
+                },
+                {
+                    "field": "BillDate",
+                    "header": "Charge On"
+                }
+            ]
+        }
+    ]
+}
